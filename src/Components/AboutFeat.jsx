@@ -39,7 +39,7 @@ const AboutFeat = () => {
 
   return (
     <div className="bg-white py-12 px-6 lg:px-24 mt-[70px]">
-        <h1 className="text-xl">Combining cutting-edge science, innovative research, <br />
+        <h1 className=" text-3xl md:text-5xl mb-14">Combining cutting-edge science, innovative research, <br />
          and advanced technology to revolutionize healthcare.</h1>
       <div className="max-w-7xl mx-auto grid grid-cols-1 gap-12">
         {sections.map((section, index) => (

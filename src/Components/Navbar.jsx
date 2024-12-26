@@ -59,7 +59,7 @@ const Navbar = () => {
       </Link>
 
       {/* Navigation Links */}
-      <ul className="flex space-x-6 text-sm font-medium">
+      <ul className="md:flex hidden space-x-6 text-sm font-medium">
         {[ 
           { path: "/", label: "HOME" },
           { path: "/about-us", label: "ABOUT US" },
